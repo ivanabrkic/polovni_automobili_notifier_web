@@ -4,7 +4,7 @@ import { Ad } from 'components/models';
 export async function getAds() {
   try {
     const { data, status } = await axios.get<Ad[]>(
-      'http://localhost:3000/ads',
+      'https://cors-anywhere.herokuapp.com/http://178.223.75.184:3000/ads',
       {
         headers: {
           Accept: 'application/json',

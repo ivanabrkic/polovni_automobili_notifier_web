@@ -40,14 +40,14 @@
       <q-img class="absolute-top" src="https://cdn.quasar.dev/img/material.png" style="height: 250px">
         <div class="absolute-top bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
-            <img src="/src/assets/vlada.png">
+            <img src="/dist/spa/assets/vlada.png">
           </q-avatar>
           <div class="text-weight-bold">Vladimir Popovic</div>
           <div>vladimirpopovic@live.com</div>
         </div>
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
-            <img src="src/assets/ivana.png">
+            <img src="../../dist/spa/assets/ivana.png">
           </q-avatar>
           <div class="text-weight-bold">Ivana Brkic</div>
           <div>ivanabrkic192@gmail.com</div>
