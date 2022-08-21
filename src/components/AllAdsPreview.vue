@@ -105,7 +105,7 @@ const columns = [
     field: 'year',
     sortable: true,
     align: 'left',
-    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10)
+    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10),
   },
   {
     name: 'mileage',
@@ -113,7 +113,7 @@ const columns = [
     field: 'mileage',
     sortable: true,
     align: 'left',
-    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10)
+    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10),
   },
   {
     name: 'price',
@@ -121,9 +121,8 @@ const columns = [
     sortable: true,
     align: 'left',
     field: 'price',
-    format: (value: number) =>
-      value === 999999999 ? 'Na zahtev' : `${value}`,
-    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10)
+    format: (value: number) => (value === 999999999 ? 'Na zahtev' : `${value}`),
+    sort: (a: string, b: string) => parseInt(a, 10) - parseInt(b, 10),
   },
   {
     name: 'url',
